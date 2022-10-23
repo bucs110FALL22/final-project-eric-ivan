@@ -1,8 +1,8 @@
 :warning: Everything between << >> needs to be replaced (remove << >> after replacing)
 # CS110 Project Proposal
-# << Project Title >>
+# Text Adventure With Graphical Output
 ## CS 110 Final Project
-### << Semester, Year >>
+### Fall, 2022
 ### [Assignment Description](https://docs.google.com/document/d/1H4R6yLL7som1lglyXWZ04RvTp_RvRFCCBn6sqv-82ps/edit?usp=sharing)
 
 << [repl](#) >>
@@ -10,13 +10,13 @@
 << [link to demo presentation slides](#) >>
 
 ### Team: << team name >>
-#### << Team Members >>
+#### Ivan Yun, Eric Pan
 
 ***
 
 ## Project Description
 
-<< Give an overview of your project >>
+An adventure game with multiple outputs depending on the decisions of the player. The input mechanism will mainly be text-driven, with graphical output to depict the player's decisions as well as graphics to display the player's next options.
 
 ***    
 
