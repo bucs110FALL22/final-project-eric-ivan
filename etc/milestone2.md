@@ -35,4 +35,3 @@ Come up with interfaces for 3 possible classes you think you may need for your p
     * self.size = size
 ***    
 
-========================
