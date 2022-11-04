@@ -6,28 +6,34 @@
 
 Come up with interfaces for 3 possible classes you think you may need for your project. Again, brainstorm a little. Nothing is *wrong*.
 
-## Movement Interface
+## Scene Interface
+***
+class Scene:
+  def __init__(self, bgcolor = black, switch = None, screen_width = 640, screen_height = 480):
+    self.bgcolor = bgcolor
+    self.screen_width = screen_width
+    self.screen_height = screen_height
+    self.switch_screen = switch_screen
 
-* class user
-    * moveLeft()
-    * moveRight()
-    * moveForward()
+***
+## Player Interface
+***
+class Player:
+  def __init__(self, xpos = 0, ypos = 1, lives = 3):
+    self.xpos = xpos
+    self.ypos = ypos
+    self.lives = lives
 
 ***
 
-## Choices Interface
-
-* class keyboard
-    * choicedown()
-    * choiceup()
-    * enter()
-
+## Item Interface
 ***
-## Jumping Interface
-
-* class jump
-    * jumpUp()
-    * jumpDown()
-    * stop()
-
+class Item:
+  def __init__(self, image, xpos = 0, ypos = 0, size = 1):
+    self.image = image
+    self.xpos = xpos
+    self.ypos = ypos
+    self.size = size
+    
 ***
+========================
