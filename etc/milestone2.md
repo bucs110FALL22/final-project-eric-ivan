@@ -9,7 +9,7 @@ Come up with interfaces for 3 possible classes you think you may need for your p
 ## Scene Interface
 
 * class Scene:
-  * def __init__(self, bgcolor = black, switch = None, screen_width = 640, screen_height = 480):
+  * def __init__(self, bgcolor = black, switch_screen = None, screen_width = 640, screen_height = 480):
     * self.bgcolor = bgcolor
     * self.screen_width = screen_width
     * self.screen_height = screen_height
