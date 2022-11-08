@@ -39,10 +39,28 @@ An adventure game with multiple outputs depending on the decisions of the player
          - url for the module documentation
          - a short description of the module >>
 * Class Interface Design
+    1. < Scene Interface > 
+    * __init__
+        * < Instance Variables : screen_width screen_height bg_color >
+        * < Methods : returns the width height and bgcolor to draw the scene >
+        * < Dependencies : Relies on Sprite Class >
+    2. < Player Interface > 
+    * __init__
+        * < Instance Variables : players x position players y position lives and speed>
+        * < Methods : returns players position x and y coordinate >
+        * < Dependencies : Relies on Sprite Class >
+    3. < Item Interface > 
+    * __init__
+        * < Instance Variables : items x and y position and item size>
+        * < Methods : return randomized x and y position of item >
+        * < Dependencies : Relies on Sprite Class >                 
     * << A simple drawing that shows the class relationships in your code (see below for an example). This does not need to be overly detailed, but should show how your code fits into the Model/View/Controller paradigm. >>
         * ![class diagram](assets/class_diagram.jpg) 
 * Classes
     * << You should have a list of each of your classes with a description. >>
+    * << Scene Class: Sets color and height and width of the screen >>
+    * << Player Class: x and y position of player and the amount of lives >>
+    * << Item Class: Sets the image of item x and y position and size of item >>
 
 ## Project Structure and File List
 
