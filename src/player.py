@@ -36,9 +36,6 @@ class Player(pygame.sprite.Sprite):
       self.rect.x += self.speed
       
     def move_left(self):
-      '''player movingn to the left'''
+      '''player moving to the left'''
       self.rect.x -= self.speed
-      
-    def touch(self, item):
-      '''item moves to random location'''
-      return random.randrange(3)
+  

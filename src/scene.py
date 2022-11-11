@@ -17,10 +17,10 @@ class Scene(pygame.sprite.Sprite):
     self.screen_height = screen_height
     self.switch_screen = switch_screen
     # this is required
-    self.image = pygame.image.load("assets/scene.png")
-    self.rect = self.image.get_rect()
+    self.image = pygame.image.load("assets/scene.png") 
+    self.rect = self.image.get_rect() # remove because does not involve collision
 
-def draw(self, window):
-  '''draws the scene with given parameters'''
-  pygame.draw.rect(window, (255,0,0), (self.x, self.y, 50, 50))
+  def draw(self, window):
+    '''draws the scene with given parameters'''
+    pygame.draw.rect(window, (255,0,0), (self.xpos, self.ypos, 50, 50))
     

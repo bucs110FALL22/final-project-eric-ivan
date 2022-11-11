@@ -2,7 +2,7 @@ import pygame
 import random
 
 class Item(pygame.sprite.Sprite):
-  def __init__(self, x, y, size = 0):
+  def __init__(self, xpos, ypos, size = 0):
     '''first line to get in the sprite class init'''
     '''sets item position for x coordinate'''
     '''sets item position for y coordinate'''
@@ -13,17 +13,17 @@ class Item(pygame.sprite.Sprite):
     #just the first line you have to put in the sprite class init
     super().__init__(self)
     #rest of model
-    self.x = x
-    self.y = y
+    self.xpos = xpos
+    self.ypos = ypos
     self.size = size
     #this is required
     self.image = pygame.image.load("assets/item.png")
     self.rect = self.image.get_rect()
 
-    
-def randomposition(self):
-    '''updates x pos of item to a random area on screen'''
-    '''updates y pos of item to a random area on screen'''
-    self.rect.x += random.randrange(-self.x,self.x+1)
-    self.rect.y += random.randrange(-self.y,self.y+1)
+#may not be neccesary within the context of our game   
+def randomposition(self): 
+    '''updates x position of item to a random area on screen'''
+    '''updates y position of item to a random area on screen'''
+    self.rect.xpos += random.randrange(-self.xpos,self.xpos+1)
+    self.rect.ypos += random.randrange(-self.ypos,self.ypos+1)
       
