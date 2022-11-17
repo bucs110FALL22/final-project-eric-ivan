@@ -26,8 +26,8 @@ background_img = pygame.image.load('background.png')
 class Character(pygame.sprite.Sprite):
   def __init__(self, type):
     super().__init__()
-    self.walk.anim = [
-        pygame.image.load(os.path.join("Assets", type, f"{type}_Standing.png"))
+    # self.walk.anim = [
+    #     pygame.image.load(os.path.join("Assets", type, f"{type}_Standing.png"))
       ]
 
 

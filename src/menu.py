@@ -167,7 +167,7 @@ class CreditsMenu(Menu):
             self.game.display.fill(self.game.BLACK)
             # draw our text title and credits
             self.game.draw_text('Credits', 20, self.game.DISPLAY_WIDTH / 2, self.game.DISPLAY_HEIGHT / 2 - 20)
-            self.game.draw_text('Made by me', 15, self.game.DISPLAY_WIDTH / 2, self.game.DISPLAY_HEIGHT / 2 + 10)
+            self.game.draw_text('Made by Eric Pan and Ivan Yun', 15, self.game.DISPLAY_WIDTH / 2, self.game.DISPLAY_HEIGHT / 2 + 10)
             self.blit_screen() #inherited from menu base class
 
 
