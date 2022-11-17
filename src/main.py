@@ -3,7 +3,8 @@ from game import Game
 g = Game()
 
 while g.running:
-  g.playing = True
+  g.current_menu.display_menu()
+  # if player presses start & display menu functions, playing variable set to true, enters game loop
   g.game_loop()
 
 pygame.init()
@@ -25,9 +26,9 @@ background_img = pygame.image.load('background.png')
 class Character(pygame.sprite.Sprite):
   def __init__(self, type):
     super().__init__()
-    # self.walk.anim = [
-    #     pygame.image.load(os.path.join("Assets", type, f"{type}_Standing.png"))
-    #   ]
+    self.walk.anim = [
+        pygame.image.load(os.path.join("Assets", type, f"{type}_Standing.png"))
+      ]
 
 
 gameRunning = True
