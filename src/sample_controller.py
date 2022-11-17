@@ -27,7 +27,7 @@ class Controller:
     self.scene3
     self.mainmenu
     self.gameoverscreen
-    
+  
   def mainloop(self):
     '''keep the gaming running if its true'''
     '''starting while loop for running = True'''
@@ -103,7 +103,8 @@ class Controller:
       
   def gameloop(self):
       #event loop
-
+    if self.lives == 0:
+      self.STATE = "gameover"
       #update data
 
       #redraw
@@ -111,8 +112,8 @@ class Controller:
     
   def gameoverloop(self):
       #event loop
-
+    
       #update data
-
+      self.gameovermsg = pygame.msg("Game Over")
       #redraw
       pygame.display.update()
