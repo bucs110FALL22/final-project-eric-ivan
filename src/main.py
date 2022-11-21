@@ -28,7 +28,7 @@ class Character(pygame.sprite.Sprite):
     super().__init__()
     # self.walk.anim = [
     #     pygame.image.load(os.path.join("Assets", type, f"{type}_Standing.png"))
-      ]
+      
 
 
 gameRunning = True
