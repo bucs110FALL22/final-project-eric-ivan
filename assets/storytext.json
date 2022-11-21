@@ -1,0 +1,19 @@
+"1" = {You wake up, and are in a place you don’t recognize. Looking around, you appear to be in what looks like a typical bedroom. What do you do now?}
+
+"1A" = {}
+
+"1B" = {You decide to explore the room. You discover a dresser, likely full of items. You come to the door, and discover it is unlocked. What do you do now?}
+
+"1B.A" = {You decide to open the dresser. Inside, you find a parachute. You wonder why this would be here. What do you decide to do with it?}
+
+"1B.B" = {Upon opening the door and leaving the bedroom, you find that you are nearly 900,000 miles above ground level. You plummet to your death.}
+
+"1B.A.A_1" = {You put on the parachute. Finding nothing else in the room, you decide to leave the room through the door.}
+
+"1B.A.A_2" = {Upon doing so, you find yourself 900,000 miles above ground level. Fortunately, you just put on a parachute, so you use it to safely descend back down to Earth.}
+
+"1B.A.B_1" = {You put the parachute back into the drawer. Finding nothing else in the room, you decide to leave the room through the door.}
+
+"1B.A.B_2" = {Upon opening the door and leaving the bedroom, you find that you are nearly 900,000 miles above ground level. You plummet to your death.}
+
+"1B.B" = {Upon opening the door and leaving the bedroom, you find that you are nearly 900,000 miles above ground level. You plummet to your death.}
