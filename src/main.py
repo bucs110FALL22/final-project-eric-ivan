@@ -1,54 +1,55 @@
 import pygame
-from game import Game
+from controller import Controller
 
 def main():
-  g = Game()
+    c = Controller()
   
-  while g.running:
-    g.current_menu.display_menu()
+    while c.running:
+      c.current_menu.display_menu()
     # if player presses start & display menu functions, playing variable set to true, enters game loop
-    g.game_loop()
-
+      c.game_loop()
 main()
-pygame.init()
+  
 
-WHITE = (255, 255, 255)
-BLACK = (0, 0, 0)
-RED = (255, 0, 0)
+# pygame.init()
 
-gameDisplay = pygame.display.set_mode((600, 350))
+# WHITE = (255, 255, 255)
+# BLACK = (0, 0, 0)
+# RED = (255, 0, 0)
 
-pygame.display.set_caption('Choose Your Own Adventure')
+# gameDisplay = pygame.display.set_mode((600, 350))
 
-pygame.display.update()
+# pygame.display.set_caption('Choose Your Own Adventure')
 
-#Images
-background_img = pygame.image.load('background.png')
+# pygame.display.update()
 
-#Characters
-class Character(pygame.sprite.Sprite):
-  def __init__(self, type):
-    super().__init__()
-    # self.walk.anim = [
-    #     pygame.image.load(os.path.join("Assets", type, f"{type}_Standing.png"))
+# #Images
+# background_img = pygame.image.load('background.png')
+
+# #Characters
+# class Character(pygame.sprite.Sprite):
+#   def __init__(self, type):
+#     super().__init__()
+#     # self.walk.anim = [
+#     #     pygame.image.load(os.path.join("Assets", type, f"{type}_Standing.png"))
       
 
 
-gameRunning = True
-lead_x = 300
-lead_y = 300
+# gameRunning = True
+# lead_x = 300
+# lead_y = 300
 
-while gameRunning:
-  gameDisplay.blit(background_img, (0, 0))
-  for event in pygame.event.get():
-    if event.type == pygame.QUIT:
-      gameRunning = False
-  pygame.display.update()
+# while gameRunning:
+#   gameDisplay.blit(background_img, (0, 0))
+#   for event in pygame.event.get():
+#     if event.type == pygame.QUIT:
+#       gameRunning = False
+#   pygame.display.update()
 
-pygame.quit()
-quit()
+# pygame.quit()
+# quit()
 
-# Other code
-# gameDisplay.fill(WHITE)
-# pygame.draw.rect(gameDisplay, BLACK, [400,300,10,100]) #surface, color, [x,y,width,height]
-# # gameDisplay.fill(red, rect[])
+# # Other code
+# # gameDisplay.fill(WHITE)
+# # pygame.draw.rect(gameDisplay, BLACK, [400,300,10,100]) #surface, color, [x,y,width,height]
+# # # gameDisplay.fill(red, rect[])

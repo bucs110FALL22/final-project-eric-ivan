@@ -5,11 +5,8 @@ class Text:
   def __init__(self):
   lines = []
   textfile = open("assets/storytext.json")
-  text_dictionary = json.load(textfile)
-  self.start = text_dictionary['story']
-  
-  def add_text(self, start_story):
-    self.start = 
+  self.text_dictionary = json.loads(textfile)
+  print(text_dictionary)
+  textfile.close()
 
-  def remove_text(self):
-    pass
+
