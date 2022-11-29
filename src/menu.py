@@ -60,6 +60,7 @@ class MainMenu(Menu): #putting Menu inherits value from base class
 
     # all cursor movement features
     def move_cursor(self):
+        '''checks the state and adjusts require more than 10 lines'''
         if self.game.DOWN_KEY:
             if self.state == 'Start':
                 self.cursor_rect.midtop = (self.optionsx + self.offset, self.optionsy)

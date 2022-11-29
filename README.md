@@ -5,11 +5,11 @@
 ### Fall, 2022
 ### [Assignment Description](https://docs.google.com/document/d/1H4R6yLL7som1lglyXWZ04RvTp_RvRFCCBn6sqv-82ps/edit?usp=sharing)
 
-<< [https://replit.com/join/fnrltzzdwg-ericpan7](#) >>
+ [https://replit.com/join/fnrltzzdwg-ericpan7](#) 
 
 << [link to demo presentation slides](#) >>
 
-### Team: << team name >>
+### Team:  Eric & Ivan 
 #### Ivan Yun, Eric Pan
 
 ***

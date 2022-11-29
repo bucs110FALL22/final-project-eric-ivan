@@ -1,12 +1,15 @@
 import pygame
 from game import Game
-g = Game()
 
-while g.running:
-  g.current_menu.display_menu()
-  # if player presses start & display menu functions, playing variable set to true, enters game loop
-  g.game_loop()
+def main():
+  g = Game()
+  
+  while g.running:
+    g.current_menu.display_menu()
+    # if player presses start & display menu functions, playing variable set to true, enters game loop
+    g.game_loop()
 
+main()
 pygame.init()
 
 WHITE = (255, 255, 255)
