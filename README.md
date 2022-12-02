@@ -4,9 +4,11 @@
 ### Fall, 2022
 ### [Assignment Description](https://docs.google.com/document/d/1H4R6yLL7som1lglyXWZ04RvTp_RvRFCCBn6sqv-82ps/edit?usp=sharing)
 
+### Replit Link ###
  [https://replit.com/join/fnrltzzdwg-ericpan7](#) 
 
- [link to demo presentation slides](#)
+### Demo Presentation###
+ [https://docs.google.com/presentation/d/1mnorEOetZ_FMSyTntdMYwhMoutm2XhHn/edit?usp=sharing&ouid=114210175364490876890&rtpof=true&sd=true](#)
 
 ### Team:  Eric & Ivan 
 #### Ivan Yun, Eric Pan
@@ -57,8 +59,7 @@ An adventure game with multiple outputs depending on the decisions of the user. 
 * Non-Standard libraries
     * N/A (Not Applicable)
 * Class Interface Design
-    *  A simple drawing that shows the class relationships in your code (see below for an example). This does not need to be overly detailed, but should show how your code fits into the Model/View/Controller paradigm. 
-        * ![Class Interface Design](Class%20Interface%20Design.jpg)
+         ![Class Diagram](Class%20Diagram.png)
 * Classes
     *  Button Class: Creates clickable buttons
     *  GameSurface Class: Groups the question and answer on screen into a single class
