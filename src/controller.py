@@ -2,8 +2,8 @@ import pygame
 import json
 # from menu import *
 
+# screen dimensions
 DISPLAY_WIDTH, DISPLAY_HEIGHT = 480, 270
-
 
 # creates clickable buttons
 class Button(pygame.sprite.Sprite):
@@ -22,8 +22,7 @@ class Button(pygame.sprite.Sprite):
 class GameSurface():
 
     def __init__(self, questionList):
-        self.font = pygame.font.Font('assets/8-BIT WONDER.TTF',
-                                     10)  # pass in font file here
+        self.font = pygame.font.Font('assets/8-BIT WONDER.TTF', 10)
         self.questionSurface = self.getQuestion(questionList[0], self.font, 10)
         self.answersList = []
         self.final = False
@@ -333,21 +332,6 @@ class Controller():
             "1B.A.B",
             "1.B.B",
         ]
-        while self.playing:
-            # check players input events
-            self.check_events()
-            # breaks loop but does not turn game off
-            if self.START_KEY:
-                self.playing = False
-            # our canvas
-            self.display.fill(self.BLACK)
-            # text, size, x, y
-            self.draw_text('Thanks for Playing', 20, self.DISPLAY_WIDTH / 2,
-                           self.DISPLAY_HEIGHT / 2)
-            # aligns display with window
-            self.window.blit(self.display, (0, 0))
-            pygame.display.update()  # physically moves image to display screen
-            self.reset_keys()
 
     # checking user events
     def check_events(self):

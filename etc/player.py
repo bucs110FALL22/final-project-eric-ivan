@@ -1,4 +1,4 @@
-timport pygame
+import pygame
 import random
 
 # like an import for classes instead of modules
