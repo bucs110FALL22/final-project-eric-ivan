@@ -16,7 +16,7 @@
 
 ## Project Description
 
-An adventure game with multiple outputs depending on the decisions of the player. The input mechanism will mainly be text-driven, with graphical output to depict the player's decisions as well as graphics to display the player's next options.
+An adventure game with multiple outputs depending on the decisions of the player. The input mechanism will be based off of buttons, with graphical output to depict the player's decisions as well as graphics to display the player's next options. 
 
 ***    
 
@@ -44,7 +44,7 @@ An adventure game with multiple outputs depending on the decisions of the player
         * < Instance Variables : screen_width screen_height bg_color >
         * < Methods : returns the width height and bgcolor to draw the scene >
         * < Dependencies : Relies on Sprite Class >
-    2. < Player Interface > 
+    2. < Player Interface >
     * __init__
         * < Instance Variables : players x position players y position lives and speed>
         * < Methods : returns players position x and y coordinate >
@@ -57,10 +57,10 @@ An adventure game with multiple outputs depending on the decisions of the player
     * << A simple drawing that shows the class relationships in your code (see below for an example). This does not need to be overly detailed, but should show how your code fits into the Model/View/Controller paradigm. >>
         * ![class diagram](assets/class_diagram.jpg) 
 * Classes
-    * << You should have a list of each of your classes with a description. >>
-    * << Scene Class: Sets color and height and width of the screen >>
-    * << Player Class: x and y position of player and the amount of lives >>
-    * << Item Class: Sets the image of item x and y position and size of item >>
+    * << You should have a list of each of your classes with a description. 
+    *  Scene Class: Sets color and height and width of the screen 
+    *  Player Class: x and y position of player and the amount of lives 
+    *  Item Class: Sets the image of item x and y position and size of item 
 
 ## Project Structure and File List
 
@@ -69,25 +69,30 @@ The Project is broken down into the following file structure:
 * main.py
 * src
     * << all of your python files should go here >>
+    * << item.py player.py controller.py scene.py text.py >>
 * assets
     * << all of your media, i.e. images, font files, etc, should go here) >>
+    * << 8-BIT WONDER.TTF class_diagram.jpg storytext.json >>
 * etc
     * << This is a catch all folder for things that are not part of your project, but you want to keep with your project >>
+    * << milestone2.md >>
 
 ***
 
 ## Tasks and Responsibilities 
 
-   * Outline the team member roles and who was responsible for each class/method, both individual and collaborative.
+   * We worked on the project together.
 
 ## Testing
 
 * << Describe your testing strategy for your project. >>
+* << We are going to run the program a few times to test it. >>
 
 ## ATP
 
 | Step                 |Procedure             |Expected Results                   |
 |----------------------|:--------------------:|----------------------------------:|
-|  1                   | Run Counter Program  |GUI window appears with count = 0  |
-|  2                   | click count button   | display changes to count = 1      |
-etc...
+|  1                   | Open terminal, navigate to folder, and type, “python3 main.py”  |GUI window appears, "start game", "options", and "credits" options appear |
+|  2                   | select "start game" option with keyboard   | First prompt with responses appear|
+|3                     | Select response with keyboard| Next promt based off of previous response appears, with subsequent responses based off of previous response|
+|4| Final response is selected with keyboard| End screen is shown. If response leads to victory screen, show victory screen If response leads to game over screen, show game over screen.|

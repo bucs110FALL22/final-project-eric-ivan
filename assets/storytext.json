@@ -1,9 +1,9 @@
 {
-  "1": ["You wake up, and are in a place you don’t recognize. Looking around, you appear to be in what looks like a typical bedroom. What do you do now?",{"Go back to sleep": "1A", "Explore the room": "1B"}], 
-  "1B": ["You decide to explore the room. You discover a dresser, likely full of items. You come to the door, and discover it is unlocked. What do you do now?"{"Check the dresser": "1B.A", "Leave the room through the door": "1B.B"}],
-  "1B.A": ["You decide to open the dresser. Inside, you find a parachute. You wonder why this would be here. What do you decide to do with it?" {"Put on the parachute": "1B.A.A", "Put the parachute back": "1B.A.B"}],
-  "1B.B": ["Upon opening the door and leaving the bedroom, you find that you are nearly 900,000 miles above ground level. You plummet to your death."],
-  "1B.A.A": ["You put on the parachute. Finding nothing else in the room, you decide to leave the room through the door. Upon doing so, you find yourself 900,000 miles above ground level. Fortunately, you just put on a parachute, so you use it to safely descend back down to Earth."],
-  "1B.A.B": ["You put the parachute back into the drawer. Finding nothing else in the room, you decide to leave the room through the door. Upon opening the door and leaving the bedroom, you find that you are nearly 900,000 miles above ground level. You plummet to your death."],
-  "1B.B": ["Upon opening the door and leaving the bedroom, you find that you are nearly 900,000 miles above ground level. You plummet to your death."]
+  "1": [["You wake up, and are in a place you don’t recognize.", "Looking around, you appear to be in what looks like", "a typical bedroom. What do you do now?"],{"Go back to sleep": "1A", "Explore the room": "1B"}], 
+  "1B": [["You decide to explore the room. You discover a dresser,", "likely full of items. You come to the door, and discover", "it is unlocked. What do you do now?"], {"Check the dresser": "1B.A", "Leave the room through the door": "1B.B"}],
+  "1B.A": [["You decide to open the dresser. Inside, you find a", "parachute. You wonder why this would be here.", "What do you decide to do with it?"], {"Put on the parachute": "1B.A.A", "Put the parachute back": "1B.A.B"}],
+  "1B.B": [["Upon opening the door and leaving the bedroom, you", "find that you are nearly 900,000 miles above ground", " level. You plummet to your death."]],
+  "1B.A.A": [["You put on the parachute.", "Finding nothing else in the room, ", "you decide to leave the room through the door. Upon", "doing so, you find yourself 900,000 miles above ground", "level. Fortunately, you just put on a parachute,", "so you use it to safely descend back", "down to Earth."]],
+  "1B.A.B": [["You put the parachute back into the drawer. Finding", "nothing else in the room, you decide to leave the room", "through the door. Upon opening the door and leaving", "the bedroom, you find that you are nearly 900,000", "miles above ground level. You plummet to your death."]],
+ "1A": 0
 }
