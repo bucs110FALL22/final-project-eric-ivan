@@ -1,4 +1,3 @@
-:warning: Everything between << >> needs to be replaced (remove << >> after replacing)
 # CS110 Project Proposal
 # Text Adventure With Graphical Output
 ## CS 110 Final Project
@@ -7,7 +6,7 @@
 
  [https://replit.com/join/fnrltzzdwg-ericpan7](#) 
 
-<< [link to demo presentation slides](#) >>
+ [link to demo presentation slides](#)
 
 ### Team:  Eric & Ivan 
 #### Ivan Yun, Eric Pan
@@ -55,31 +54,11 @@ An adventure game with multiple outputs depending on the decisions of the user. 
 ***        
 
 ## Program Design
-
 * Non-Standard libraries
-    * N/A
-    * << You should have a list of any additional libraries or modules used (pygame, request) beyond non-standard python. 
-         For each additional module you should include
-         - url for the module documentation
-         - a short description of the module >>
+    * N/A (Not Applicable)
 * Class Interface Design
-    1. Scene Interface
-    * __init__
-        *  Instance Variables : screen_width screen_height bg_color 
-        *  Methods : returns the width height and bgcolor to draw the scene 
-        *  Dependencies : Relies on Sprite Class 
-    2.  Player Interface 
-    * __init__
-        *  Instance Variables : players x position players y position lives and speed
-        *  Methods : returns players position x and y coordinate 
-        *  Dependencies : Relies on Sprite Class 
-    3.  Item Interface 
-    * __init__
-        *  Instance Variables : items x and y position and item size
-        *  Methods : return randomized x and y position of item 
-        *  Dependencies : Relies on Sprite Class                  
     *  A simple drawing that shows the class relationships in your code (see below for an example). This does not need to be overly detailed, but should show how your code fits into the Model/View/Controller paradigm. 
-        * ![class diagram](assets/class_diagram.jpg) 
+        * ![Class Interface Design](Class%20Interface%20Design.jpg)
 * Classes
     *  Button Class: Creates clickable buttons
     *  GameSurface Class: Groups the question and answer on screen into a single class
@@ -115,10 +94,10 @@ The Project is broken down into the following file structure:
 
 ## ATP
 
-| Step                 |Procedure             |Expected Results                   |
-|----------------------|:--------------------:|----------------------------------:|
-|  1                   | Open terminal, navigate to folder, and type, “python3 main.py”  |GUI window appears, "start game", "options", and "credits" options appear |
-|  2                   | select "start game" option with keyboard   | First prompt with responses appear|
-|3                     | Select response with keyboard| Next promt based off of previous response appears, with subsequent responses based off of previous response|
-|4| Final response is selected with keyboard| End screen is shown. If response leads to victory screen, show victory screen If response leads to game over screen, show game over screen.|
+| Step                 |Procedure             |Expected Results|Comments|                
+|----------------------|:--------------------:|----------------------------------:|:-----|
+|1| Open terminal, navigate to folder, and type, “python3 main.py”  |GUI window appears, "start game", "options", and "credits" options appear || |
+|2| select "start game" option with keyboard| First prompt with responses appear|
+|3| Select response with mouse left click on chosen response| Next prompt based off of previous response appears, with subsequent responses based off of new prompt|
+|4| Final response is selected with keyboard| End screen is shown. If response leads to victory screen, show victory screen. If response leads to game over screen, show game over screen.|
 |5| Once end screen is shown, user left clicks on mouse| Program ends

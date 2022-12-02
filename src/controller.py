@@ -7,7 +7,6 @@ DISPLAY_WIDTH, DISPLAY_HEIGHT = 480, 270
 
 # creates clickable buttons
 class Button(pygame.sprite.Sprite):
-
     def __init__(self, font, text, pos):
         super().__init__()
         self.image = font.render(text, True, 'white')
@@ -15,6 +14,7 @@ class Button(pygame.sprite.Sprite):
         self.rect.topleft = pos
 
     def get_rect(self):
+        '''gets a rectangular surface'''
         return self.rect
 
 
