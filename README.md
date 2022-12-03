@@ -44,7 +44,7 @@ An adventure game with multiple outputs depending on the decisions of the user. 
    - Start game starts the game play. Options displays a options screen. However, this screen is entirely non-functional, as there are no options that the user can actually configure. Credits displays the credits of the game.
   
  - ***Gameplay Screen(s)***
-  ![Gameplay Screen](Gameplay%20Screen.png)
+  ![Gameplay Screen](Gameplay%20Screen.png) 
   - This screen is an example of the multiple gameplay screens that the user will see. The exact screen that the user sees at any moment in the game depends on the decisions they make during gameplay.
 
   - A text prompt is displayed at the top of the screen. A list of possible responses are displayed underneath it. The user can select which response they wish to perform. Upon doing so, a new promt would be displayed based upon which response was chosen, along with new responses for that new prompt.
