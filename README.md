@@ -39,8 +39,7 @@ An adventure game with multiple outputs depending on the decisions of the user. 
 
 - **Final GUI**
     - ***Start Menu:***
-    ![mainmenu](mainmenu.png) 
-(Note: Images cannot be viewed on github. Use replit 'Open preview' to view images)
+  - ![mainmenu](mainmenu.png) 
 
    - This is the first screen that the user sees upon starting the program. They are presented with three options: Start Game, Options, and Credits.
 
