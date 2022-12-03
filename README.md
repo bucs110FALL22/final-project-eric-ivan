@@ -7,7 +7,7 @@
 ### Replit Link ###
  [https://replit.com/join/fnrltzzdwg-ericpan7](#) 
 
-### Demo Presentation###
+### Demo Presentation ###
  [https://docs.google.com/presentation/d/1mnorEOetZ_FMSyTntdMYwhMoutm2XhHn/edit?usp=sharing&ouid=114210175364490876890&rtpof=true&sd=true](#)
 
 ### Team:  Eric & Ivan 
