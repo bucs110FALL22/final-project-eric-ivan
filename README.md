@@ -47,13 +47,13 @@ An adventure game with multiple outputs depending on the decisions of the user. 
    - Start game starts the game play. Options displays a options screen. However, this screen is entirely non-functional, as there are no options that the user can actually configure. Credits displays the credits of the game.
   
  - ***Gameplay Screen(s)***
-   ![gameplay](gameplay.png)
+   - ![gameplay](gameplay.png)
   - This screen is an example of the multiple gameplay screens that the user will see. The exact screen that the user sees at any moment in the game depends on the decisions they make during gameplay.
 
   - A text prompt is displayed at the top of the screen. A list of possible responses are displayed underneath it. The user can select which response they wish to perform. Upon doing so, a new promt would be displayed based upon which response was chosen, along with new responses for that new prompt.
 
 - ***End Screen(s)***
-  ![EndScreen](EndScreen.png)
+  - ![EndScreen](EndScreen.png)
    - This is an example of an end screen. These screens are displayed before the end of the program, after the user chooses a response that leads to an ending. The end screen can either be a victory screen (if they win), or a game over screen (if they lose).
 
 ***        
@@ -62,7 +62,7 @@ An adventure game with multiple outputs depending on the decisions of the user. 
 * Non-Standard libraries
     * N/A (Not Applicable)
 * Class Interface Design
-         ![ClassDiagram](ClassDiagram.png)
+   - ![ClassDiagram](ClassDiagram.png)
 * Classes
     *  Button Class: Creates clickable buttons
     *  GameSurface Class: Groups the question and answer on screen into a single class
