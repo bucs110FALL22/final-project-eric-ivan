@@ -80,6 +80,8 @@ The Project is broken down into the following file structure:
 * main.py
 * src
     * controller.py
+    * game.py
+    * menu.py
 * assets
     * 8-BIT WONDER.TTF, class_diagram.jpg, storytext.json
 * etc
