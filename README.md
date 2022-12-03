@@ -7,6 +7,8 @@
 ### Replit Link ###
  [https://replit.com/join/fnrltzzdwg-ericpan7](#) 
 
+### **Note: Images cannot be viewed on github. So, use the replit link above and go to README.md file,  click on 'Open preview' to view the images.**
+
 ### Demo Presentation ###
  [https://docs.google.com/presentation/d/1mnorEOetZ_FMSyTntdMYwhMoutm2XhHn/edit?usp=sharing&ouid=114210175364490876890&rtpof=true&sd=true](#)
 
@@ -38,6 +40,7 @@ An adventure game with multiple outputs depending on the decisions of the user. 
 - **Final GUI**
     - ***Start Menu:***
     ![Start Menu](Start%20Menu.png)
+(Note: Images cannot be viewed on github. Use replit 'Open preview' to view images)
 
    - This is the first screen that the user sees upon starting the program. They are presented with three options: Start Game, Options, and Credits.
 
@@ -97,8 +100,9 @@ The Project is broken down into the following file structure:
 
 | Step                 |Procedure             |Expected Results|Comments|                
 |----------------------|:--------------------:|----------------------------------:|:-----|
-|1| Open terminal, navigate to folder, and type, “python3 main.py”  |GUI window appears, "start game", "options", and "credits" options appear || |
-|2| select "start game" option with keyboard| First prompt with responses appear|
-|3| Select response with mouse left click on chosen response| Next prompt based off of previous response appears, with subsequent responses based off of new prompt|
-|4| Final response is selected with keyboard| End screen is shown. If response leads to victory screen, show victory screen. If response leads to game over screen, show game over screen.|
-|5| Once end screen is shown, user left clicks on mouse| Program ends
+|1| Open terminal, navigate to folder, and type, “python3 main.py”  | GUI window appears, "start game", "options", and "credits" options appear || |
+|2| Use up & down arrows keys to traverse menu | Moves up or down the selection depending on your action|
+|3| Select "start game" press enter (backspace key exits options & credits menu only) | First prompt with responses appear|
+|4| Select response with mouse left click on chosen response| Next prompt based off of previous response appears, with subsequent responses based off of new prompt|
+|5| Final response is selected with keyboard| End screen is shown. If response leads to victory screen, show victory screen. If response leads to game over screen, show game over screen.|
+|6| Once end screen is shown, user left clicks on mouse| Program ends
