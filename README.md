@@ -7,8 +7,6 @@
 ### Replit Link ###
  [https://replit.com/join/fnrltzzdwg-ericpan7](#) 
 
-### **Note: Images cannot be viewed on github. So, use the replit link above and go to README.md file,  click on 'Open preview' to view the images.**
-
 ### Demo Presentation ###
  [https://docs.google.com/presentation/d/1mnorEOetZ_FMSyTntdMYwhMoutm2XhHn/edit?usp=sharing&ouid=114210175364490876890&rtpof=true&sd=true](#)
 
